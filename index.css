@@ -1,0 +1,86 @@
+body {
+  background-color: #2f4f4f;
+  font-size: 13px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+/* COMMON */
+.hidden {
+  display: none;
+}
+
+.input-info {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #d3d3d3;
+  background-color: transparent;
+  text-align: center;
+}
+
+div#clock,
+div#weather {
+  position: fixed;
+  top: 15px;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 30px;
+  width: 10vw;
+}
+
+div#clock {
+  left: 15px;
+}
+
+div#weather {
+  right: 15px;
+}
+
+div#get-user-name {
+  height: 20vh;
+  width: 30vw;
+  margin: 50px 0 20px 0;
+  border: 10px double #d3d3d3;
+  padding: 30px 20px 15px 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+div#get-user-name h1#title {
+  color: #e74792;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+div#get-user-name form#login-form {
+  display: block;
+}
+
+div#get-user-name form#login-form input#get-name {
+  font-size: 2rem;
+}
+
+div#todo-container {
+  height: 50vh;
+  width: 30vw;
+  border: 10px double #d3d3d3;
+  padding: 30px 20px 15px 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+div#todo-container form#get-todo-form input#get-todo {
+  font-size: 1.5rem;
+}
+
+div#todo-container ul#todo-list {
+  list-style-type: none;
+  font-size: 1.3rem;
+}
